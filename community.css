@@ -1,0 +1,64 @@
+/* Fútbol Pulse v1.7 Community — extra views for the Nocturne Club Premium theme */
+.community-share{margin:16px 0 0 8px;background:rgba(233,204,149,.12)!important;border-color:rgba(233,204,149,.33)!important;color:#f1daac!important}
+.community-club-art{margin:14px 0 20px;border:1px solid rgba(233,204,149,.15);background:linear-gradient(155deg,rgba(229,209,170,.09),rgba(17,31,45,.2));border-radius:18px;padding:15px}
+.community-club-art h3{margin:0 0 12px;font-size:15px;letter-spacing:-.1px}
+.community-media-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.community-media-slot{min-height:137px;border-radius:13px;overflow:hidden;border:1px solid rgba(241,233,220,.13);background:#172735;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.wm-placeholder{font-size:11px;color:#b9c3cd;text-align:center;padding:16px;line-height:1.5}
+.wm-image{height:136px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#0a1826}
+.wm-image img{display:block;width:100%;height:100%;object-fit:contain}
+.wm-credit{display:block;font-size:9px;line-height:1.5;color:#d9cfbc;overflow-wrap:anywhere;padding:6px 8px 8px}
+.wm-credit a{color:#a5ead6;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+.community-source-note{font-size:10px;color:#bac7ce;line-height:1.55;margin:9px 0 12px}
+.community-photo-button{display:block;width:100%;text-align:center;margin:7px 0 3px;min-height:44px}
+.community-player-wrap{border-bottom:1px solid rgba(233,204,149,.09);padding:0 0 5px}
+.community-player-wrap:last-of-type{border-bottom:0}
+.community-player-wrap .roster-player{width:100%;border-bottom:0}
+.community-roster-credit{padding:0 10px 0 53px;min-height:0}
+.community-roster-credit:empty{display:none}
+.community-roster-credit .wm-credit{padding:0 0 9px}
+.community-player-wrap .roster-avatar img{width:100%;height:100%;object-fit:contain;border-radius:50%}
+.community-avatar{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:72px;width:76px;max-width:110px;min-height:74px;flex-shrink:0;border-radius:15px;background:linear-gradient(150deg,rgba(233,204,149,.18),rgba(138,219,196,.08));border:1px solid rgba(233,204,149,.18);font-size:26px;overflow:hidden}
+.community-avatar .wm-image{height:80px;width:100%;background:transparent}
+.community-avatar .wm-image img{object-fit:cover}
+.community-avatar .wm-credit{font-size:8px;line-height:1.25;padding:4px;text-align:center}
+.community-avatar .wm-placeholder{font-size:9px;padding:6px}
+.community-avatar.wm-loaded{width:min(125px,38vw);max-width:125px}
+.community-avatar.wm-loaded .wm-image{height:100px}
+.pitch-wrap{padding:14px 0 21px}
+.pitch-wrap h3{margin:0 0 8px;font-size:16px}
+.pitch-wrap .feature-title{margin-bottom:8px}
+.pitch-switch{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:14px 0}
+.pitch-switch button{background:#253447;color:#d9dfdf;border:1px solid rgba(233,204,149,.16);border-radius:11px;padding:11px 7px;min-height:44px;font-size:11px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pitch-switch button.active{background:#e9cc95;color:#152438;border-color:#e9cc95}
+.pitch-field{min-height:400px;display:flex;flex-direction:column;justify-content:space-around;padding:22px 7px 17px;gap:12px;border:2px solid rgba(247,244,228,.6);border-radius:16px;position:relative;overflow:hidden;background:repeating-linear-gradient(180deg,#145e50 0,#145e50 66px,#166856 66px,#166856 132px)}
+.pitch-field::before{content:"";position:absolute;inset:6px;border:1px solid rgba(255,255,255,.45);border-radius:3px;pointer-events:none}
+.pitch-field::after{content:"";position:absolute;left:50%;top:50%;width:85px;height:85px;border:1px solid rgba(255,255,255,.45);border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+.pitch-lines{pointer-events:none;position:absolute;inset:0;background:linear-gradient(transparent 49.8%,rgba(255,255,255,.38) 50%,transparent 50.2%)}
+.pitch-layer{position:relative;z-index:1;display:flex;justify-content:space-evenly;align-items:flex-start;width:100%;gap:3px}
+.pitch-goalie{margin-top:2px}
+.pitch-player{width:min(23%,86px);min-width:0;display:flex;flex-direction:column;align-items:center;gap:4px;color:#fff;text-shadow:0 1px 4px #03251b;font-size:10px;text-align:center}
+.pitch-player>span{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:#f8eaca;color:#173e35;font-size:13px;font-weight:850;border:2px solid #fafafa;box-shadow:0 3px 10px #09231d80;text-shadow:none}
+.pitch-player b{display:block;font-size:10px;font-weight:750;line-height:1.2;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pitch-unavailable{padding:24px 15px;text-align:center;border:1px dashed rgba(233,204,149,.27);border-radius:12px;color:#c7cbd3;font-size:12px;line-height:1.6;background:rgba(243,231,198,.035)}
+.banner-retry{border-radius:9px;color:#241f18;background:#e9cc95;font-size:12px;font-weight:800;padding:9px 14px;border:none;display:inline-block;margin:7px 0 0 12px;min-height:38px}
+@media(max-width:740px){
+ .community-share{margin:10px 0 0 5px;padding:10px 13px;font-size:12px;min-height:40px}
+ .community-club-art{padding:12px;border-radius:16px}
+ .community-media-grid{gap:7px}
+ .community-media-slot{min-height:106px}
+ .wm-image{height:108px}
+ .wm-credit{font-size:8px}
+ .pitch-field{min-height:360px;padding:17px 4px}
+ .pitch-player>span{width:28px;height:28px;font-size:12px}
+ .pitch-player b{font-size:9px}
+ .community-roster-credit{padding-left:41px}
+}
+@media(max-width:350px){.pitch-field{min-height:330px}.community-avatar.wm-loaded{width:99px}.community-avatar.wm-loaded .wm-image{height:88px}}
+@media(prefers-reduced-motion:reduce){.pitch-player,.community-player-wrap{transition:none}}
+/* 1.7.1 · Estado visible del caché público, sin ocultar errores */
+.hybrid-status{display:inline-flex;align-items:center;min-height:29px;padding:6px 12px;margin:0 0 13px 1px;border-radius:999px;font-size:11px;line-height:1.3;font-weight:650;border:1px solid rgba(246,235,207,.15);background:rgba(255,255,255,.04);color:#e0dded}
+.hybrid-ok{color:#d2f7e7;border-color:rgba(129,228,177,.3);background:rgba(33,123,86,.16)}
+.hybrid-warning{color:#ffe2b2;background:rgba(173,108,42,.16);border-color:rgba(255,215,151,.28)}
+.hybrid-neutral{color:#d2cddd}
+@media(max-width:740px){.hybrid-status{font-size:10px;max-width:calc(100% - 15px);white-space:normal;margin-bottom:10px}}

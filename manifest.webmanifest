@@ -1,0 +1,25 @@
+{
+  "name": "Fútbol Pulse 1.7.1 — Hybrid Data",
+  "short_name": "Pulse Fútbol",
+  "description": "Resultados en vivo y datos secundarios compartidos con GitHub Actions, gratis.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101826",
+  "theme_color": "#101826",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

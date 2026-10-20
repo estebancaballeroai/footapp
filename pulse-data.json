@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "generatedAt": "1970-01-01T00:00:00Z",
+  "standings": {},
+  "fixtures": {},
+  "teams": {},
+  "counts": {
+    "standings": 0,
+    "fixtures": 0,
+    "teams": 0
+  },
+  "warnings": [
+    "Se generará al ejecutar GitHub Actions por primera vez."
+  ]
+}
